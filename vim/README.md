@@ -26,3 +26,10 @@
     * https://github.com/tpope/vim-pathogen.git
     * git clone https://github.com/tpope/vim-pathogen.git
 
+### 下载安装
+```
+mkdir ~/.vim/autoload -p
+curl -O ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+echo call pathogen##infect >> .vimrc
+echo call pathogen##helptags >> .vimrc
+```
