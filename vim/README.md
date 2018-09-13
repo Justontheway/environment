@@ -29,7 +29,7 @@
 ### 下载安装
 ```
 mkdir ~/.vim/autoload -p
-curl -O ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+curl -o ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 echo call pathogen##infect >> .vimrc
 echo call pathogen##helptags >> .vimrc
 ```

@@ -5,7 +5,7 @@ mkdir ~/.vim/autoload -p
 mkdir ~/.vim/bundle -p
 # pathogen
 #git clone https://github.com/tpope/vim-pathogen.git
-curl -O ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+curl -o ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 # nerdtree
 git clone http://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
