@@ -8,16 +8,16 @@ mkdir ~/.vim/bundle -p
 curl -O ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 # nerdtree
-git clone http://github.com/scrooloose/nerdtree.git ~/.git/bundle/nerdtree
+git clone http://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 # supertab
-git clone https://github.com/ervandew/supertab.git ~/.git/bundle/supertab
+git clone https://github.com/ervandew/supertab.git ~/.vim/bundle/supertab
 # tagbar
-git clone https://github.com/majutsushi/tagbar.git ~/.git/bundle/tagbar
+git clone https://github.com/majutsushi/tagbar.git ~/.vim/bundle/tagbar
 # taghighlight
-git clone https://github.com/vim-scripts/TagHighlight.git ~/.git/bundle/taghighlight
+git clone https://github.com/vim-scripts/TagHighlight.git ~/.vim/bundle/taghighlight
 # vim-scala
-git clone http://github.com/derekwyatt/vim-scala.git ~/.git/bundle/vim-scala
+git clone http://github.com/derekwyatt/vim-scala.git ~/.vim/bundle/vim-scala
 # winmanager
-git clone https://github.com/vim-scripts/winmanager.git ~/.git/bundle/winmanager
+git clone https://github.com/vim-scripts/winmanager.git ~/.vim/bundle/winmanager
 
 
