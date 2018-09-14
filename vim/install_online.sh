@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # autoload
-mkdir ~/.vim/autoload -p
-mkdir ~/.vim/bundle -p
+mkdir -p ~/.vim/autoload
+mkdir -p ~/.vim/bundle
 # pathogen
 #git clone https://github.com/tpope/vim-pathogen.git
 curl -o ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
