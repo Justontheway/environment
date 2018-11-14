@@ -3,7 +3,7 @@ scipy
 sklearn
 pandas
 pyarrow
-pyfastparquet
+fastparquet
 pyglet
 
 matplotlib
@@ -25,4 +25,7 @@ jupyter-contrib-nbextensions
 sympy
 scrapy
 django
+
+sqlalchemy
+mysqlclient
 
