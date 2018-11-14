@@ -11,12 +11,14 @@ seaborn
 
 pyshp
 geoplotlib
+graphviz
 
 tensorflow==1.9.0
 keras
 tensorflow-probability
 pymc
 
+networkx
 
 notebook
 nbdime
