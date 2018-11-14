@@ -11,5 +11,7 @@ yum -y install tree ctags \
     freetype-devel \
     libpng \
     libpng-devel \
-    zlib
+    readline zlib openssl bzip2 sqlite \
+    readline-devel zlib-devel openssl-devel bzip2-devel sqlite-devel
+
 
