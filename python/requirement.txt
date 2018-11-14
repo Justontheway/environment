@@ -12,7 +12,7 @@ seaborn
 pyshp
 geoplotlib
 
-tensorflow=1.9.0
+tensorflow==1.9.0
 keras
 tensorflow-probability
 pymc
