@@ -43,4 +43,5 @@ set autoindent    "自动缩进
 set tabstop=4       "tab键缩进为4
 set expandtab     "tab键展开
 set number
+set colorcolumn=120
 
