@@ -6,7 +6,7 @@ install() {
     pip install shadowsocks
     firewall-cmd --permanent --add-port=10086/tcp --zone=public
     firewall-cmd --permanent --add-port=10088/tcp --zone=public
-    firewall-cmd --permanent --add-port=10088/tcp --zone=public
+    firewall-cmd --permanent --add-port=10089/tcp --zone=public
     firewall-cmd --reload
 
 echo '{
