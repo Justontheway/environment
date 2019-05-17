@@ -1,17 +1,30 @@
+# 数值计算
 numpy
 scipy
-sklearn
 pandas
 pyarrow
 fastparquet
-pyglet
+statsmodels
 
+# 机器学习
+sklearn
+
+# 中文处理
+jieba
+wordcloud
+gensim
+
+# 数据预处理
+imblearn
+
+# 可视化
 matplotlib
 seaborn
+pyglet
 
-pyshp
 geoplotlib
 graphviz
+pyshp
 
 tensorflow==1.9.0
 keras
