@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yum -y install tree ctags \
+yum -y install tree ctags net-tools \
     python-setuptools \
     git \
     gcc \
