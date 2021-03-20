@@ -48,7 +48,7 @@ ipaddress==1.0.22
 ipykernel==4.10.0
 ipython==5.8.0
 ipython-genutils==0.2.0
-Jinja2==2.10
+Jinja2==2.11.3
 jsonschema==2.6.0
 jupyter-client==5.2.3
 jupyter-contrib-core==0.3.3
