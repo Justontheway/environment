@@ -105,7 +105,7 @@ pystan==2.18.1.0
 pytest-runner==4.2
 python-dateutil==2.7.5
 pytz==2018.7
-PyYAML==3.13
+PyYAML==5.4
 pyzmq==17.1.2
 queuelib==1.5.0
 requests==2.20.1
