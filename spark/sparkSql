@@ -1,0 +1,44 @@
+#!/bin/bash
+
+EXECUTOR_NUM=64
+EXECUTOR_CORE=4
+EXECUTOR_MEMORY=16G
+DRIVER_MEMORY=8G
+
+EXECUTOR_NUM=20
+EXECUTOR_CORE=12
+EXECUTOR_MEMORY=36G
+DRIVER_MEMORY=8G
+
+EXECUTOR_NUM=20
+EXECUTOR_CORE=12
+EXECUTOR_MEMORY=36G
+DRIVER_MEMORY=8G
+
+#EXECUTOR_NUM=16
+#EXECUTOR_CORE=4
+#EXECUTOR_MEMORY=8G
+#DRIVER_MEMORY=8G
+
+#EXECUTOR_NUM=1
+#EXECUTOR_CORE=4
+#EXECUTOR_MEMORY=16G
+
+APPNAME='spark-sql'
+
+. ip_conf.sh
+
+start_sql() {
+  spark-sql \
+    --executor-memory $EXECUTOR_MEMORY \
+    --num-executors $EXECUTOR_NUM \
+    --executor-cores $EXECUTOR_CORE \
+    --driver-memory $DRIVER_MEMORY \
+    --name $APPNAME \
+    --conf spark.dynamicAllocation.enabled=false \
+    --conf spark.hadoop.hive.exec.dynamic.partition=true \
+    --conf spark.hadoop.hive.exec.dynamic.partition.mode=nonstrict
+}
+
+
+start_sql
