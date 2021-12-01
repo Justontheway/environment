@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd $(dirname $0)
+
 EXECUTOR_NUM=64
 EXECUTOR_CORE=4
 EXECUTOR_MEMORY=16G
