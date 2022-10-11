@@ -1,0 +1,7 @@
+# jupyter
+jupyter
+jupyterlab
+
+# extension
+jupyter_contrib_nbextensions
+ipywidgets
