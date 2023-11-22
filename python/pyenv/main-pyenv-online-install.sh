@@ -8,7 +8,7 @@ echo "Step1. 设置安装目录 export PYENV_ROOT=$PYENV_ROOT"
 . pyenv-env.sh
 
 echo "Step2. 下载并安装"
-#curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
+curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
 
 echo "Step3. 设置环境变量"
 if [ ! -f $NOTHING_BASHRC_HOME/pyenv-rc.sh ]; then
