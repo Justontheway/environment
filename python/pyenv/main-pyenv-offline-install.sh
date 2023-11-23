@@ -4,8 +4,8 @@ cd $(dirname $0)
 
 echo "start installing pyenv"
 echo "current working directory $(pwd)"
-echo "Step1. 设置安装目录 export PYENV_ROOT=$PYENV_ROOT"
 . pyenv-env.sh
+echo "Step1. 设置安装目录 export PYENV_ROOT=$PYENV_ROOT"
 
 echo "Step2. 安装"
 if [ ! -f pyenv-package.tar.gz ]; then
