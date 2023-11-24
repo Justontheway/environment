@@ -1,0 +1,7 @@
+- name: Display Route Info
+  shell:
+    cmd: route
+
+- name: Display NetworkInterface Info
+  shell:
+    cmd: ifconfig

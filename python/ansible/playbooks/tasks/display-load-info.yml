@@ -1,0 +1,4 @@
+- name: Display Load Info
+  shell:
+    cmd: uptime -p
+

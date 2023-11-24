@@ -1,0 +1,9 @@
+---
+- name: Display System Basic Info
+  hosts: all
+  tasks:
+  - import_tasks: tasks/display-load-info.yml
+  - import_tasks: tasks/display-memory-info.yml
+  - import_tasks: tasks/display-disk-info.yml
+  - import_tasks: tasks/display-network-info.yml
+

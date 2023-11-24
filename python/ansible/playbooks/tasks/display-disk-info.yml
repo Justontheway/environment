@@ -1,0 +1,4 @@
+- name: Display Disk Info
+  shell:
+    cmd: fdisk -l
+

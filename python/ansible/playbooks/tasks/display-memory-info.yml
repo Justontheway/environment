@@ -1,0 +1,4 @@
+- name: Display Memory Info
+  shell:
+    cmd: free -m
+
